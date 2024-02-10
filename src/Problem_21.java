@@ -13,6 +13,6 @@ public class Problem_21 {
             }
             array[j]=first;
         }
-        System.out.println(Arrays.toString(array));
+        System.out.println("left rotate array = "+Arrays.toString(array));
     }
 }
