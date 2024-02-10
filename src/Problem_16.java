@@ -8,6 +8,6 @@ public class Problem_16 {
         for (int i = 0; i <array.length; i++) {
        reverse_array[i]=array[(array.length-1)-i];
         }
-        System.out.println(Arrays.toString(reverse_array));
+        System.out.println("Reversed array = "+Arrays.toString(reverse_array));
     }
 }
