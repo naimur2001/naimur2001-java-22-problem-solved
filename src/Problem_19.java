@@ -16,7 +16,7 @@ public class Problem_19 {
                 }
             }
         }
-        System.out.println(Arrays.toString(array));
+        System.out.println("Descending = "+Arrays.toString(array));
         //array sorting as ascending order
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j< array.length-1; j++) {
@@ -27,7 +27,7 @@ public class Problem_19 {
                 }
             }
         }
-        System.out.println(Arrays.toString(array));
+        System.out.println("Ascending = "+Arrays.toString(array));
 
     }
 }
